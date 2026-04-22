@@ -7,7 +7,7 @@
 [![Motion: Framer Motion](https://img.shields.io/badge/Animation-Framer_Motion-FF00C1?style=flat-square&logo=framer)](https://www.framer.com/motion/)
 [![SEO: Hardened](https://img.shields.io/badge/SEO-Hardened-00C853?style=flat-square)](https://search.google.com/search-console)
 
-![TeknoVarta Banner](/app-data-path/antigravity/brain/1529a656-5b6d-44f0-928b-75775ac580b2/teknovarta_github_banner_1776859593021.png)
+![TeknoVarta Banner](/public/images/image.png)
 
 **TeknoVarta** adalah portal cerdas yang menggabungkan database spesifikasi teknologi mendalam dengan asisten AI mutakhir. Dirancang untuk memberikan pengalaman eksplorasi teknologi yang elegan, cepat, dan akurat.
 
