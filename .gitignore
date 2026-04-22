@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+.next/
+out/
+
+# Production Build
+standalone/
+
+# Large Files & Backups
+*.zip
+*.tar.gz
+*.log
+
+# Environment & Secrets
+.env*
+!.env.example
+
+# Local development
+.DS_Store
+coverage/
+*.tsbuildinfo
