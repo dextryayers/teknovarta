@@ -1,5 +1,0 @@
-TeknoVarta Intelligence Portal
-Developer: Hanif Abdurrohim (HanipLabs)
-Status: Optimized for SEO & AI Intelligence
-Build: 2026.04.22
-Domain: artikel.haniplabs.com
