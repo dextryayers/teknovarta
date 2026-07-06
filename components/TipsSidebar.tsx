@@ -49,62 +49,62 @@ export default function TipsSidebar() {
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: -300, opacity: 0 }}
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
-            className="ml-2 w-72 bg-white dark:bg-slate-900 rounded-3xl shadow-[0_0_50px_rgba(0,0,0,0.1)] border border-slate-200 dark:border-slate-800 p-6 overflow-hidden relative"
+            className="ml-2 w-[320px] bg-white dark:bg-slate-900 rounded-[2rem] shadow-[0_20px_60px_rgba(0,0,0,0.08)] border border-slate-100 dark:border-slate-800 p-8 overflow-hidden relative"
           >
             <div className="absolute top-0 right-0 w-32 h-32 bg-red-600/5 blur-3xl rounded-full -mr-10 -mt-10"></div>
             
             <div className="relative z-10">
-              <div className="flex items-center gap-3 mb-8">
-                <div className="bg-red-600 p-2 rounded-xl text-white">
-                  <Lightbulb className="h-5 w-5" />
+              <div className="flex items-center gap-4 mb-10">
+                <div className="bg-[#e60000] p-3 rounded-full text-white shadow-md shadow-red-600/20 flex-shrink-0">
+                  <Lightbulb className="h-6 w-6" strokeWidth={2} />
                 </div>
                 <div>
-                  <h3 className="text-sm font-black text-slate-900 dark:text-white uppercase tracking-tighter">Tips & Trik</h3>
-                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">TEKNOVARTA HACKS</span>
+                  <h3 className="text-sm font-bold text-[#1e293b] dark:text-white tracking-wide mb-1" style={{ fontFamily: 'Georgia, serif' }}>TIPS & TRIK</h3>
+                  <span className="text-[10px] font-bold text-[#94a3b8] uppercase tracking-[0.15em]">TEKNOVARTA HACKS</span>
                 </div>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-6">
                 <Link 
                   href="/tips?category=perawatan-hp" 
                   onClick={() => setIsOpen(false)}
-                  className="flex items-center gap-4 p-3 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-2xl transition-colors group"
+                  className="flex items-center gap-5 px-2 hover:opacity-70 transition-opacity group"
                 >
-                  <Smartphone className="h-5 w-5 text-indigo-600" />
-                  <span className="text-xs font-black text-slate-600 dark:text-slate-400 group-hover:text-red-600 uppercase">Perawatan HP</span>
+                  <Smartphone className="h-5 w-5 text-[#4f46e5]" strokeWidth={1.5} />
+                  <span className="text-xs font-bold text-[#334155] dark:text-slate-300 uppercase tracking-wide" style={{ fontFamily: 'Georgia, serif' }}>PERAWATAN HP</span>
                 </Link>
                 <Link 
                   href="/tips?category=laptop" 
                   onClick={() => setIsOpen(false)}
-                  className="flex items-center gap-4 p-3 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-2xl transition-colors group"
+                  className="flex items-center gap-5 px-2 hover:opacity-70 transition-opacity group"
                 >
-                  <Laptop className="h-5 w-5 text-blue-600" />
-                  <span className="text-xs font-black text-slate-600 dark:text-slate-400 group-hover:text-red-600 uppercase">Laptop Hacks</span>
+                  <Laptop className="h-5 w-5 text-[#2563eb]" strokeWidth={1.5} />
+                  <span className="text-xs font-bold text-[#334155] dark:text-slate-300 uppercase tracking-wide" style={{ fontFamily: 'Georgia, serif' }}>LAPTOP HACKS</span>
                 </Link>
                 <Link 
                   href="/tips?category=pc" 
                   onClick={() => setIsOpen(false)}
-                  className="flex items-center gap-4 p-3 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-2xl transition-colors group"
+                  className="flex items-center gap-5 px-2 hover:opacity-70 transition-opacity group"
                 >
-                  <Cpu className="h-5 w-5 text-emerald-600" />
-                  <span className="text-xs font-black text-slate-600 dark:text-slate-400 group-hover:text-red-600 uppercase">PC Building</span>
+                  <Cpu className="h-5 w-5 text-[#059669]" strokeWidth={1.5} />
+                  <span className="text-xs font-bold text-[#334155] dark:text-slate-300 uppercase tracking-wide" style={{ fontFamily: 'Georgia, serif' }}>PC BUILDING</span>
                 </Link>
                 <Link 
                   href="/tips?category=mengamankan" 
                   onClick={() => setIsOpen(false)}
-                  className="flex items-center gap-4 p-3 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-2xl transition-colors group"
+                  className="flex items-center gap-5 px-2 hover:opacity-70 transition-opacity group"
                 >
-                  <ShieldCheck className="h-5 w-5 text-red-600" />
-                  <span className="text-xs font-black text-slate-600 dark:text-slate-400 group-hover:text-red-600 uppercase">Mengamankan</span>
+                  <ShieldCheck className="h-5 w-5 text-[#dc2626]" strokeWidth={1.5} />
+                  <span className="text-xs font-bold text-[#334155] dark:text-slate-300 uppercase tracking-wide" style={{ fontFamily: 'Georgia, serif' }}>MENGAMANKAN</span>
                 </Link>
               </div>
 
               <Link 
                 href="/tips" 
                 onClick={() => setIsOpen(false)}
-                className="mt-8 flex items-center justify-between p-4 bg-slate-950 dark:bg-slate-800 rounded-2xl text-white group"
+                className="mt-10 flex items-center justify-between px-6 py-4 bg-[#050b14] rounded-full text-white group hover:bg-[#0f172a] transition-colors shadow-lg shadow-black/10"
               >
-                <span className="text-[10px] font-black uppercase tracking-widest">Lihat Semua Tips</span>
+                <span className="text-[10px] font-bold uppercase tracking-[0.2em]">LIHAT SEMUA TIPS</span>
                 <ArrowRight className="h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>

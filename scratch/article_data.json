@@ -1,0 +1,721 @@
+{
+  "categories": [
+    "hp",
+    "laptop",
+    "pc",
+    "cyber",
+    "webdev"
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Samsung Galaxy S26 Ultra: Revolusi Kamera 200MP dan Baterai Solid-State",
+      "category": "hp"
+    },
+    {
+      "id": 2,
+      "title": "iPhone 17 Pro Max: Tanpa Port, Tanpa Tombol, Sepenuhnya Futuristik",
+      "category": "hp"
+    },
+    {
+      "id": 3,
+      "title": "Xiaomi 16 Ultra: Lensa Leica Summilux Generasi Keempat untuk Fotografi Pro",
+      "category": "hp"
+    },
+    {
+      "id": 4,
+      "title": "Google Pixel 10: Chip Tensor G6 yang Akhirnya Buatan Sendiri Sepenuhnya",
+      "category": "hp"
+    },
+    {
+      "id": 5,
+      "title": "Asus ROG Phone 10: HP Gaming Pertama dengan Sistem Pendingin Liquid Aktif",
+      "category": "hp"
+    },
+    {
+      "id": 6,
+      "title": "Oppo Find X9 Pro: Layar Quad-Curved Tanpa Bezel Sama Sekali",
+      "category": "hp"
+    },
+    {
+      "id": 7,
+      "title": "Realme GT 6 Pro: Harga Mid-Range dengan Spek Snapdragon 8 Gen 5",
+      "category": "hp"
+    },
+    {
+      "id": 8,
+      "title": "Sony Xperia 1 VII: Mempertahankan Jack Audio di Tahun 2026",
+      "category": "hp"
+    },
+    {
+      "id": 9,
+      "title": "Nothing Phone (3): Glyph Interface yang Kini Bisa Menampilkan Notifikasi Teks",
+      "category": "hp"
+    },
+    {
+      "id": 46,
+      "title": "Realme 14 Pro+: Pengisian Cepat 300W yang Mengisi Penuh Dalam 5 Menit",
+      "category": "hp"
+    },
+    {
+      "id": 10,
+      "title": "MacBook Pro M5: Chip 2nm Pertama di Dunia dengan Performa NPU Luar Biasa",
+      "category": "laptop"
+    },
+    {
+      "id": 11,
+      "title": "Asus Zenbook Duo 2026: Dua Layar OLED 144Hz dalam Satu Bodi Ramping",
+      "category": "laptop"
+    },
+    {
+      "id": 12,
+      "title": "Dell XPS 13 Plus: Menghilangkan Seluruh Port Fisik Demi Ketipisan Ekstrim",
+      "category": "laptop"
+    },
+    {
+      "id": 13,
+      "title": "Razer Blade 16: Layar Mini-LED Dual-Mode Kini Mendukung Refresh Rate 300Hz",
+      "category": "laptop"
+    },
+    {
+      "id": 14,
+      "title": "HP Spectre x360: Laptop Convertible dengan Integrasi AI Copilot Pro+",
+      "category": "laptop"
+    },
+    {
+      "id": 15,
+      "title": "Framework Laptop 16: Kini Anda Bisa Upgrade GPU dengan Mudah Sendiri",
+      "category": "laptop"
+    },
+    {
+      "id": 16,
+      "title": "Lenovo Yoga Book 9i: Laptop Layar Lipat Tanpa Bekas Lipatan",
+      "category": "laptop"
+    },
+    {
+      "id": 17,
+      "title": "Microsoft Surface Pro 11: Akhirnya Menggunakan Chip ARM Buatan Microsoft",
+      "category": "laptop"
+    },
+    {
+      "id": 18,
+      "title": "Acer Swift Edge 16: Laptop 16 Inci Paling Ringan di Dunia (Hanya 1.1kg)",
+      "category": "laptop"
+    },
+    {
+      "id": 47,
+      "title": "Huawei MateBook X Pro: Laptop OLED Tertipis yang Mengejutkan Dunia Teknologi",
+      "category": "laptop"
+    },
+    {
+      "id": 19,
+      "title": "NVIDIA RTX 6090 Resmi Diumumkan: Arsitektur 'Black Magic' dengan GDDR8",
+      "category": "pc"
+    },
+    {
+      "id": 20,
+      "title": "AMD Ryzen 9 10950X: Prosesor 24-Core 48-Thread dengan Cache 3D Raksasa",
+      "category": "pc"
+    },
+    {
+      "id": 21,
+      "title": "Intel Core Ultra 300: Arsitektur Hybrid Baru Tanpa Hyperthreading?",
+      "category": "pc"
+    },
+    {
+      "id": 22,
+      "title": "Casing PC 'Zero Cable': Tren Rakit PC Termulus Tahun 2026",
+      "category": "pc"
+    },
+    {
+      "id": 23,
+      "title": "Monitor Gaming 8K 240Hz: Apakah Mata Manusia Benar-benar Perlu?",
+      "category": "pc"
+    },
+    {
+      "id": 24,
+      "title": "RAM DDR6 Resmi Meluncur: Kecepatan Mencapai 12800 MT/s",
+      "category": "pc"
+    },
+    {
+      "id": 25,
+      "title": "SSD Gen6 Tembus 28GB/s: Waktu Loading Game Hanya Dalam Sekedipan Mata",
+      "category": "pc"
+    },
+    {
+      "id": 26,
+      "title": "PSU ATX 4.0: Mengatasi Spike Daya GPU Monster Masa Depan",
+      "category": "pc"
+    },
+    {
+      "id": 27,
+      "title": "Custom Water Cooling Tanpa Pompa (Passive Cooling) Jadi Kenyataan",
+      "category": "pc"
+    },
+    {
+      "id": 48,
+      "title": "Be Quiet! Dark Base Pro 902: Casing PC Tercerdas dengan Dashboard LCD Terintegrasi",
+      "category": "pc"
+    },
+    {
+      "id": 28,
+      "title": "Kebobolan Data Terbesar 2026: 500 Juta Akun Sosial Media Bocor ke Dark Web",
+      "category": "cyber"
+    },
+    {
+      "id": 29,
+      "title": "Virus 'Silent-Kill' Baru Menyerang Firmware Router Rumah Tangga",
+      "category": "cyber"
+    },
+    {
+      "id": 30,
+      "title": "Hacker Berhasil Bobol Sistem Pembayaran Taksi Terbang Autopilot",
+      "category": "cyber"
+    },
+    {
+      "id": 31,
+      "title": "Prediksi Keamanan Siber 2027: AI-vs-AI Akan Menjadi Standar Perang Digital",
+      "category": "cyber"
+    },
+    {
+      "id": 32,
+      "title": "Indonesia Bentuk Komando Siber Nasional untuk Melindungi Infrastruktur Kritis",
+      "category": "cyber"
+    },
+    {
+      "id": 33,
+      "title": "Celah Keamanan 'Quantum-Zero' Mengancam Enkripsi Klasik RSA",
+      "category": "cyber"
+    },
+    {
+      "id": 34,
+      "title": "Ransomware Menyerang Rumah Sakit Pintar: Nyawa Pasien Dalam Bahaya",
+      "category": "cyber"
+    },
+    {
+      "id": 35,
+      "title": "Hacker Topi Putih Menemukan Bug di Chipset Intel: Dapat Menembus Memory Isolation",
+      "category": "cyber"
+    },
+    {
+      "id": 36,
+      "title": "Google Meluncurkan Standar Keamanan Biometrik Baru Berbasis Pola Detak Jantung",
+      "category": "cyber"
+    },
+    {
+      "id": 49,
+      "title": "Serangan 'DeepFake Live' di Zoom: Trik Baru Penipu Mencuri Akses Perbankan",
+      "category": "cyber"
+    },
+    {
+      "id": 37,
+      "title": "Next.js 16 Resmi Rilis: Rendering Tanpa JavaScript Sisi Client Kini Jadi Default",
+      "category": "webdev"
+    },
+    {
+      "id": 38,
+      "title": "Tailwind CSS v5: Kini Mendukung Desain 3D Langsung dari Utility Classes",
+      "category": "webdev"
+    },
+    {
+      "id": 39,
+      "title": "Bun v2.0 Menghancurkan Dominasi Node.js di Sisi Server pada Tahun 2026",
+      "category": "webdev"
+    },
+    {
+      "id": 40,
+      "title": "WebAssembly (Wasm) Kini Bisa Mengakses GPU Secara Langsung Melalui WebGPU",
+      "category": "webdev"
+    },
+    {
+      "id": 41,
+      "title": "React 19 vs Vue 4 vs Svelte 6: Mana yang Paling Cocok untuk Startup 2026?",
+      "category": "webdev"
+    },
+    {
+      "id": 42,
+      "title": "Tip Coding: Cara Mengoptimalkan Core Web Vitals untuk Skor 100",
+      "category": "webdev"
+    },
+    {
+      "id": 43,
+      "title": "TypeScript 6.0: Menghilangkan Kebutuhan untuk Build Step ke JavaScript?",
+      "category": "webdev"
+    },
+    {
+      "id": 44,
+      "title": "Hati-hati! Library NPM Populer Disusupi Kode Berbahaya (Malicious Package)",
+      "category": "webdev"
+    },
+    {
+      "id": 45,
+      "title": "Vite 7 Meluncur: Cold Start Dibawah 0.5 Detik untuk Project Raksasa",
+      "category": "webdev"
+    },
+    {
+      "id": 50,
+      "title": "Astro 5.0 Rilis: Server-Side Actions Jadi Standar Baru Pembuatan Landing Page",
+      "category": "webdev"
+    },
+    {
+      "id": 51,
+      "title": "Next.js 16 Preview: Fitur Streaming Komponen yang Lebih Cerdas",
+      "category": "webdev"
+    },
+    {
+      "id": 52,
+      "title": "Tailwind CSS 5.0: Revolusi Engine Styling Berbasis Rust",
+      "category": "webdev"
+    },
+    {
+      "id": 53,
+      "title": "Membangun Aplikasi AI-Native dengan Gemini 2.0 API",
+      "category": "webdev"
+    },
+    {
+      "id": 54,
+      "title": "State of Web Performance 2026: Mengapa INP Masih Menjadi Raja",
+      "category": "webdev"
+    },
+    {
+      "id": 55,
+      "title": "Bun 2.0: Runtime JavaScript yang Akhirnya Menantang Dominasi Node.js",
+      "category": "webdev"
+    },
+    {
+      "id": 61,
+      "title": "Cara Jitu Memperbaiki Layar HP OLED yang Mengalami Shadow/Burn-in",
+      "category": "hp"
+    },
+    {
+      "id": 62,
+      "title": "Diagnosa Kerusakan IC Power: Smartphone Mati Total Bukan Berarti Akhir",
+      "category": "hp"
+    },
+    {
+      "id": 63,
+      "title": "Tips Merawat Baterai Tanam Agar Tetap Awet Hingga 5 Tahun",
+      "category": "hp"
+    },
+    {
+      "id": 64,
+      "title": "Mengenal Alat Reballing CPU: Senjata Pamungkas Teknisi HP Kelas Berat",
+      "category": "hp"
+    },
+    {
+      "id": 65,
+      "title": "Mengatasi Sinyal Hilang pada HP Bekas International (Masalah IMEI)",
+      "category": "hp"
+    },
+    {
+      "id": 71,
+      "title": "5 Rekomendasi Laptop untuk Web Developer di 2026: Performa vs Portabilitas",
+      "category": "laptop"
+    },
+    {
+      "id": 72,
+      "title": "MacBook Pro M5 vs Laptop Windows ARM: Mana yang Lebih Worth It?",
+      "category": "laptop"
+    },
+    {
+      "id": 73,
+      "title": "Review Laptop Modular Framework 16: Akhir dari Era E-Waste?",
+      "category": "laptop"
+    },
+    {
+      "id": 74,
+      "title": "Mengapa Layar OLED Kini Menjadi Standar Wajib di Laptop Premium",
+      "category": "laptop"
+    },
+    {
+      "id": 75,
+      "title": "Tips Membeli Laptop Bekas Berkualitas: Cek SSD, Baterai, dan Engsel!",
+      "category": "laptop"
+    },
+    {
+      "id": 81,
+      "title": "Skandal Kebocoran Data Bank Terbesar 2026: 50 Juta Rekening Terancam",
+      "category": "cyber"
+    },
+    {
+      "id": 82,
+      "title": "Ransomware Menyerang Perusahaan Cloud: Infrastruktur Publik Lumpuh",
+      "category": "cyber"
+    },
+    {
+      "id": 83,
+      "title": "Cara Kerja Hacker Menembus Sistem Keamanan Biometrik Modern",
+      "category": "cyber"
+    },
+    {
+      "id": 84,
+      "title": "Tren Social Engineering 2026: Manipulasi Psikologis Berbasis AI",
+      "category": "cyber"
+    },
+    {
+      "id": 85,
+      "title": "Peran Bug Bounty dalam Menjaga Ekosistem Internet Tetap Aman",
+      "category": "cyber"
+    },
+    {
+      "id": 101,
+      "title": "Next.js 16 Dominasi Full-Stack Framework 2026 dengan App Router Maturity",
+      "category": "webdev"
+    },
+    {
+      "id": 102,
+      "title": "React Compiler v1.0 Resmi Dirilis - Akhir Era Manual Memoization",
+      "category": "webdev"
+    },
+    {
+      "id": 103,
+      "title": "Laravel 12: PHP Powerhouse Terus Berkembang dengan Laravel Cloud",
+      "category": "webdev"
+    },
+    {
+      "id": 104,
+      "title": "Wasp Framework: Full-Stack JS/TS dengan AI-Coding Compatibility Terbaik",
+      "category": "webdev"
+    },
+    {
+      "id": 105,
+      "title": "Django 5.2 LTS Rilis dengan Dukungan Native AI/ML Integration",
+      "category": "webdev"
+    },
+    {
+      "id": 106,
+      "title": "Ruby on Rails 8: No PaaS Philosophy dengan Kamal 2 Deployment",
+      "category": "webdev"
+    },
+    {
+      "id": 107,
+      "title": "Vercel AI SDK Menjadi Standar De Facto untuk AI Interface Development",
+      "category": "webdev"
+    },
+    {
+      "id": 108,
+      "title": "Qwik 1.x Stable: Revolusi Resumability Tanpa Hydration",
+      "category": "webdev"
+    },
+    {
+      "id": 109,
+      "title": "Nuxt 4 dengan Nuxt Hub: Deployment Ekosistem Vue yang Matang",
+      "category": "webdev"
+    },
+    {
+      "id": 110,
+      "title": "Astro: Zero-JS Default untuk Content-Heavy Websites",
+      "category": "webdev"
+    },
+    {
+      "id": 111,
+      "title": "SvelteKit: Minimal JavaScript Output dengan Performa Excellent",
+      "category": "webdev"
+    },
+    {
+      "id": 112,
+      "title": "Remix di Bawah Shopify: Stabil untuk Data-Intensive Applications",
+      "category": "webdev"
+    },
+    {
+      "id": 113,
+      "title": "Bun + Elysia: Kombinasi Runtime dan Framework Tercepat",
+      "category": "webdev"
+    },
+    {
+      "id": 114,
+      "title": "Angular 19: Enterprise Framework yang Terus Relevan",
+      "category": "webdev"
+    },
+    {
+      "id": 115,
+      "title": "SolidJS: High Performance UI Library Tanpa Virtual DOM",
+      "category": "webdev"
+    },
+    {
+      "id": 116,
+      "title": "Mastra & LangChain.js: Framework AI-Native untuk Agent Workflows",
+      "category": "webdev"
+    },
+    {
+      "id": 117,
+      "title": "Next.js App Router Maturity dan LTS Policy dari Vercel",
+      "category": "webdev"
+    },
+    {
+      "id": 118,
+      "title": "TypeScript End-to-End Type Safety Menjadi Standar Industri",
+      "category": "webdev"
+    },
+    {
+      "id": 119,
+      "title": "Edge Functions dan Serverless-First Deployment Jadi Default",
+      "category": "webdev"
+    },
+    {
+      "id": 120,
+      "title": "AI-Native Features Menjadi Baseline Expectation di Web App",
+      "category": "webdev"
+    },
+    {
+      "id": 121,
+      "title": "Samsung Galaxy S25 Ultra Resmi Meluncur di Indonesia dengan Snapdragon 8 Elite",
+      "category": "hp"
+    },
+    {
+      "id": 122,
+      "title": "Samsung Galaxy S25 dan S25 Plus: Flagship Compact dan Standard",
+      "category": "hp"
+    },
+    {
+      "id": 123,
+      "title": "Samsung Galaxy S25 FE dan Z Fold 7 / Z Flip 7 Terdeteksi dalam Pengembangan",
+      "category": "hp"
+    },
+    {
+      "id": 124,
+      "title": "Xiaomi 15 Ultra dengan Kamera Leica 1 Inci Masuk Indonesia",
+      "category": "hp"
+    },
+    {
+      "id": 125,
+      "title": "OPPO Find X9 Pro Masuk Indonesia dengan Rating 95%",
+      "category": "hp"
+    },
+    {
+      "id": 126,
+      "title": "OPPO Find X9 Series: Lini Flagship Terbaru OPPO",
+      "category": "hp"
+    },
+    {
+      "id": 127,
+      "title": "OPPO Find N3 Flip: Foldable dengan Cover Screen Fungsional",
+      "category": "hp"
+    },
+    {
+      "id": 128,
+      "title": "Google Pixel 10 Pro Hadir di Indonesia dengan AI Computational Photography",
+      "category": "hp"
+    },
+    {
+      "id": 129,
+      "title": "OnePlus 15 Rilis Global dengan Warp Charge 150W",
+      "category": "hp"
+    },
+    {
+      "id": 130,
+      "title": "Samsung Galaxy A57 dan A37: Refresh Mid-Range Terbaru",
+      "category": "hp"
+    },
+    {
+      "id": 131,
+      "title": "7 Merek HP Terbaik dan Paling Awet Tahun 2026",
+      "category": "hp"
+    },
+    {
+      "id": 132,
+      "title": "Panduan Lengkap Merawat Baterai HP Agar Awet dan Sehat",
+      "category": "hp"
+    },
+    {
+      "id": 133,
+      "title": "Aplikasi Cek Kesehatan Baterai HP Terbaik 2026",
+      "category": "hp"
+    },
+    {
+      "id": 134,
+      "title": "Inovasi Teknologi Baterai Smartphone Terkini 2026",
+      "category": "hp"
+    },
+    {
+      "id": 135,
+      "title": "12 Tips Menjaga Baterai HP dari Carlcare Service Center",
+      "category": "hp"
+    },
+    {
+      "id": 136,
+      "title": "Cara Menghemat Baterai HP Android untuk Penggunaan Seharian",
+      "category": "hp"
+    },
+    {
+      "id": 137,
+      "title": "Tanda-Tanda Baterai HP Harus Segera Diganti",
+      "category": "hp"
+    },
+    {
+      "id": 138,
+      "title": "Samsung Galaxy S24 Ultra Masih Relevan di 2026",
+      "category": "hp"
+    },
+    {
+      "id": 139,
+      "title": "Perbandingan Daya Tahan Baterai Antar Merek Flagship 2026",
+      "category": "hp"
+    },
+    {
+      "id": 140,
+      "title": "Pentingnya Service Center Resmi untuk Penggantian Baterai",
+      "category": "hp"
+    },
+    {
+      "id": 141,
+      "title": "Lenovo Yoga 7i 2-in-1: Fleksibilitas Maksimal untuk Produktivitas",
+      "category": "laptop"
+    },
+    {
+      "id": 142,
+      "title": "Alienware x16 R1: Gaming Laptop Premium untuk Enthusiast",
+      "category": "laptop"
+    },
+    {
+      "id": 143,
+      "title": "HP OmniBook X Flip 14: Mobilitas Tinggi untuk Profesional Modern",
+      "category": "laptop"
+    },
+    {
+      "id": 144,
+      "title": "ASUS ExpertBook P5: Laptop Bisnis dengan Durabilitas Enterprise",
+      "category": "laptop"
+    },
+    {
+      "id": 145,
+      "title": "Acer Aspire Go 15: Entry Level yang Reliable untuk Kebutuhan Dasar",
+      "category": "laptop"
+    },
+    {
+      "id": 146,
+      "title": "LG Gram Series: Portabilitas Tanpa Kompromi untuk Traveler",
+      "category": "laptop"
+    },
+    {
+      "id": 147,
+      "title": "Samsung Galaxy Book Series: Visual Premium untuk Multimedia",
+      "category": "laptop"
+    },
+    {
+      "id": 148,
+      "title": "MSI Seri AI: Laptop dengan Teknologi Artificial Intelligence Terintegrasi",
+      "category": "laptop"
+    },
+    {
+      "id": 149,
+      "title": "Framework Laptop 13: Modular dan Sustainable untuk Tech Enthusiast",
+      "category": "laptop"
+    },
+    {
+      "id": 150,
+      "title": "ASUS TUF Gaming A15: Laptop Gaming Tangguh dengan Harga Kompetitif",
+      "category": "laptop"
+    },
+    {
+      "id": 151,
+      "title": "Lenovo IdeaPad Slim 3i: Entry Level Terbaik untuk Pelajar dan Mahasiswa",
+      "category": "laptop"
+    },
+    {
+      "id": 152,
+      "title": "HP Pavilion 14-EC0013AU: Performa Menengah untuk Multitasking",
+      "category": "laptop"
+    },
+    {
+      "id": 153,
+      "title": "ASUS Vivobook 14 A1404: Pelajar dan Profesional Muda",
+      "category": "laptop"
+    },
+    {
+      "id": 154,
+      "title": "ASUS VivoBook Pro 15 OLED: Laptop untuk Content Creator Pemula",
+      "category": "laptop"
+    },
+    {
+      "id": 155,
+      "title": "Lenovo Yoga Slim 7i: Stylish dan Powerful untuk Urban Professional",
+      "category": "laptop"
+    },
+    {
+      "id": 156,
+      "title": "Zyrex Notebook Sky 232: Laptop Lokal Termurah untuk Kebutuhan Dasar",
+      "category": "laptop"
+    },
+    {
+      "id": 157,
+      "title": "15 Rekomendasi Laptop untuk Mahasiswa Tahun 2026",
+      "category": "laptop"
+    },
+    {
+      "id": 158,
+      "title": "10 Laptop Paling Awet dan Tahan Lama di Tahun 2026",
+      "category": "laptop"
+    },
+    {
+      "id": 159,
+      "title": "Panduan Perawatan Laptop: Hindari Panas Berlebih dan Debu",
+      "category": "laptop"
+    },
+    {
+      "id": 188,
+      "title": "Brightspeed Ransomware: 1 Juta Users Data Terancam",
+      "category": "cyber"
+    },
+    {
+      "id": 189,
+      "title": "149 Juta Credential Exposure karena Database Terbuka",
+      "category": "cyber"
+    },
+    {
+      "id": 190,
+      "title": "Marquis Health Breach via SonicWall: 780K Individu Terdampak",
+      "category": "cyber"
+    },
+    {
+      "id": 191,
+      "title": "Substack Data Breach: Email dan Nomor Telepon Pelanggan Diekspos",
+      "category": "cyber"
+    },
+    {
+      "id": 192,
+      "title": "Cloud Imperium Games (Star Citizen) Data Breach",
+      "category": "cyber"
+    },
+    {
+      "id": 193,
+      "title": "Michelin Oracle EBS Attack oleh Cl0p Ransomware Group",
+      "category": "cyber"
+    },
+    {
+      "id": 194,
+      "title": "Telus Digital Breach: Hingga 1 Petabyte Data Dicuri",
+      "category": "cyber"
+    },
+    {
+      "id": 195,
+      "title": "French Education Ministry Breach: 243K Data Staf Diekspos",
+      "category": "cyber"
+    },
+    {
+      "id": 196,
+      "title": "Crunchyroll Data Breach melalui Third-Party Customer Support",
+      "category": "cyber"
+    },
+    {
+      "id": 197,
+      "title": "LeakBase Forum Owner Ditangkap oleh Otoritas Rusia",
+      "category": "cyber"
+    },
+    {
+      "id": 198,
+      "title": "WEF Global Cybersecurity Outlook 2026: Deepfake dan AI Fraud Meningkat",
+      "category": "cyber"
+    },
+    {
+      "id": 199,
+      "title": "INTERPOL Takedown 20.000 Malicious IPs dalam Operasi Global",
+      "category": "cyber"
+    },
+    {
+      "id": 200,
+      "title": "AI-Orchestrated Cyber Espionage Campaign Pertama Teridentifikasi",
+      "category": "cyber"
+    }
+  ]
+}

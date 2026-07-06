@@ -5,32 +5,32 @@ import Image from 'next/image';
 
 const IMAGES = [
   {
-    url: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=800",
+    url: "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800",
     label: "WEB DEVELOPMENT",
     caption: "Professional Coding Environment"
   },
   {
-    url: "https://images.unsplash.com/photo-1597733336794-12d05021d510?auto=format&fit=crop&q=80&w=800",
+    url: "https://cdn.pixabay.com/photo/2017/03/24/07/28/technology-2125547_1280.jpg",
     label: "PHONE TECHNICIAN",
     caption: "Expert Smartphone Repair"
   },
   {
-    url: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&q=80&w=800",
+    url: "https://cdn.pixabay.com/photo/2018/01/24/18/05/desk-3104323_1280.jpg",
     label: "HIGH-END LAPTOPS",
     caption: "Future of Portable Computing"
   },
   {
-    url: "https://images.unsplash.com/photo-1587202376732-817926363a94?auto=format&fit=crop&q=80&w=800",
+    url: "https://images.pexels.com/photos/30469971/pexels-photo-30469971.jpeg?auto=compress&cs=tinysrgb&w=800",
     label: "PC MASTER RACE",
     caption: "Maximum Hardware Performance"
   },
   {
-    url: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800",
+    url: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
     label: "SOFTWARE ENGINEERING",
     caption: "Full-Stack Innovation"
   },
   {
-    url: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=800",
+    url: "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
     label: "TECH SUPPORT",
     caption: "Reliable Hardware Analysis"
   },

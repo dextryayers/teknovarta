@@ -1,0 +1,109 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "specs": "Spek HP",
+    "categories": {
+      "hp": "HP",
+      "laptop": "Laptop",
+      "pc": "PC",
+      "cyber": "Cyber Security",
+      "webdev": "Web Dev"
+    },
+    "video": "Video",
+    "market": "Kurs Dunia",
+    "ask_ai": "Tanya AI",
+    "login": "Login"
+  },
+  "home": {
+    "ad_space": "SPACE IKLAN(950X150)",
+    "latest_headlines": "LATEST HEADLINES",
+    "popular": "POPULER",
+    "newsletter": {
+      "title": "Newsletter",
+      "desc": "Dapatkan ringkasan berita teknologi terbaik setiap hari.",
+      "placeholder": "Email Anda",
+      "button": "DAFTAR"
+    },
+    "gadget_news": "GADGET NEWS",
+    "workshop": {
+      "tag": "PRO TIPS",
+      "title": "Workshop Teknisi HP.",
+      "desc": "Panduan mendalam cara memperbaiki HP, diagnosa kerusakan IC, hingga teknik reballing profesional.",
+      "button": "LIHAT SEMUA PANDUAN"
+    },
+    "cyber_security": "KEAMANAN SIBER",
+    "dev_world": {
+      "tag": "Dev Logic",
+      "title": "DUNIA DEVELOPER",
+      "subtitle": "Masa Depan Web Dev Ada di Sini.",
+      "desc": "Kumpulan artikel teknis, tips framework, dan wawasan coding terbaru.",
+      "button": "Eksplorasi Sekarang"
+    },
+    "varta_watch": {
+      "tag": "Varta Watch",
+      "title": "Lensa Visual News.",
+      "button": "Lihat Semua Video"
+    },
+    "analysis": {
+      "title": "ANALISIS MENDALAM",
+      "editor_picks": "Pilihan Editor",
+      "read_more": "BACA SELENGKAPNYA"
+    },
+    "news_index": {
+      "title": "INDEKS BERITA",
+      "view_all": "LIHAT SEMUA",
+      "load_more": "MUAT BERITA LAINNYA"
+    },
+    "trending": {
+      "most_popular": "TERPOPULER",
+      "hot_topics": "TOPIK TERHANGAT"
+    },
+    "social": {
+      "title": "IKUTI TEKNOVARTA",
+      "desc": "Dapatkan update teknologi terbaru setiap hari melalui platform sosial kami."
+    },
+    "footer_banner": {
+      "title": "Masa Depan Ada di Sini.",
+      "desc": "Bergabunglah dengan ribuan pembaca setia Teknovarta dan dapatkan pembaruan teknologi paling akurat setiap hari.",
+      "button": "LANGGANAN SEKARANG"
+    }
+  },
+  "footer": {
+    "desc": "TEKNOVARTA adalah portal berita teknologi terkemuka yang menyajikan analisis mendalam, berita gadget terbaru, dan tren inovasi global dengan akurasi tinggi.",
+    "more": "Lainnya",
+    "links": {
+      "terms": "Syarat Penggunaan",
+      "privacy": "Kebijakan Privasi",
+      "cookie": "Cookie",
+      "accessibility": "Bantuan Aksesibilitas",
+      "parents": "Bimbingan orang tua",
+      "advertise": "Beriklan dengan kami",
+      "about": "Tentang",
+      "contact": "Hubungi Kami"
+    },
+    "promo": {
+      "title": "Pemasangan Iklan",
+      "desc": "Hubungi tim sales kami untuk informasi pemasangan iklan di portal berita kami.",
+      "asset": "Promo Asset"
+    },
+    "copyright": "Hak Cipta © {year} TEKNOVARTA INDONESIA. Kami tidak bertanggung jawab atas isi situs eksternal. Segala bentuk kutipan harus menyertakan sumber yang valid.",
+    "top": "ATAS"
+  },
+  "components": {
+    "market_board": {
+      "title": "Dewan Indeks Pasar",
+      "more": "Lebih Lengkap"
+    },
+    "article": {
+      "ai_summary": "Ringkasan AI",
+      "by": "OLEH",
+      "read": "BACA",
+      "review": "Ulasan"
+    }
+  },
+  "widget": {
+    "refresh": "Menyegarkan",
+    "feedback": "Masukan",
+    "accessibility": "Aksesibilitas"
+  }
+}

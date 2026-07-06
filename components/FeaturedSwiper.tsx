@@ -38,7 +38,7 @@ export default function FeaturedSwiper({ articles }: FeaturedSwiperProps) {
           <SwiperSlide key={article.id}>
             <div className="relative w-full h-full group">
               <Image
-                src={`${article.image}&w=1600`}
+                src={article.image}
                 alt={article.title}
                 fill
                 className="object-cover transition-transform duration-[2000ms] group-hover:scale-110"

@@ -1,0 +1,109 @@
+{
+  "navbar": {
+    "home": "Home",
+    "specs": "Phone Specs",
+    "categories": {
+      "hp": "Mobile",
+      "laptop": "Laptop",
+      "pc": "PC",
+      "cyber": "Cyber Security",
+      "webdev": "Web Dev"
+    },
+    "video": "Video",
+    "market": "Global Market",
+    "ask_ai": "Ask AI",
+    "login": "Login"
+  },
+  "home": {
+    "ad_space": "AD SPACE(950X150)",
+    "latest_headlines": "LATEST HEADLINES",
+    "popular": "POPULAR",
+    "newsletter": {
+      "title": "Newsletter",
+      "desc": "Get the best technology news summary every day.",
+      "placeholder": "Your Email",
+      "button": "SUBSCRIBE"
+    },
+    "gadget_news": "GADGET NEWS",
+    "workshop": {
+      "tag": "PRO TIPS",
+      "title": "Phone Tech Workshop.",
+      "desc": "In-depth guide on how to fix phones, IC damage diagnosis, to professional reballing techniques.",
+      "button": "VIEW ALL GUIDES"
+    },
+    "cyber_security": "CYBER SECURITY",
+    "dev_world": {
+      "tag": "Dev Logic",
+      "title": "DEVELOPER WORLD",
+      "subtitle": "The Future of Web Dev is Here.",
+      "desc": "A collection of technical articles, framework tips, and the latest coding insights.",
+      "button": "Explore Now"
+    },
+    "varta_watch": {
+      "tag": "Varta Watch",
+      "title": "Visual News Lens.",
+      "button": "View All Videos"
+    },
+    "analysis": {
+      "title": "IN-DEPTH ANALYSIS",
+      "editor_picks": "Editor's Picks",
+      "read_more": "READ MORE"
+    },
+    "news_index": {
+      "title": "NEWS INDEX",
+      "view_all": "VIEW ALL",
+      "load_more": "LOAD MORE NEWS"
+    },
+    "trending": {
+      "most_popular": "MOST POPULAR",
+      "hot_topics": "HOT TOPICS"
+    },
+    "social": {
+      "title": "FOLLOW TEKNOVARTA",
+      "desc": "Get the latest technology updates every day through our social platforms."
+    },
+    "footer_banner": {
+      "title": "The Future Is Here.",
+      "desc": "Join thousands of loyal Teknovarta readers and get the most accurate technology updates every day.",
+      "button": "SUBSCRIBE NOW"
+    }
+  },
+  "footer": {
+    "desc": "TEKNOVARTA is a leading technology news portal that provides in-depth analysis, the latest gadget news, and global innovation trends with high accuracy.",
+    "more": "More",
+    "links": {
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy",
+      "cookie": "Cookie",
+      "accessibility": "Accessibility Help",
+      "parents": "Parental Guidance",
+      "advertise": "Advertise with us",
+      "about": "About",
+      "contact": "Contact Us"
+    },
+    "promo": {
+      "title": "Advertising",
+      "desc": "Contact our sales team for advertising information on our news portal.",
+      "asset": "Promo Asset"
+    },
+    "copyright": "Copyright © {year} TEKNOVARTA INDONESIA. We are not responsible for the content of external sites. All forms of quotation must include a valid source.",
+    "top": "TOP"
+  },
+  "components": {
+    "market_board": {
+      "title": "Market Index Board",
+      "more": "More Details"
+    },
+    "article": {
+      "ai_summary": "AI Summary",
+      "by": "BY",
+      "read": "READ",
+      "review": "Review"
+    }
+  },
+  "widget": {
+    "refresh": "Refresh",
+    "feedback": "Feedback",
+    "accessibility": "Accessibility"
+  }
+}

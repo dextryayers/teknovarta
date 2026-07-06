@@ -4,8 +4,10 @@ import { CATEGORIES } from '@/lib/articles';
 import Link from 'next/link';
 import { Facebook, Twitter, Instagram, Youtube, Mail, ArrowUpRight } from 'lucide-react';
 import { motion } from 'motion/react';
+import { useTranslation } from '@/hooks/useTranslation';
 
 export default function Footer() {
+  const { t, lang } = useTranslation();
   return (
     <footer className="w-full bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 pt-16 pb-8">
       <div className="container mx-auto px-4 md:px-6">
@@ -18,7 +20,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed font-medium">
-              TEKNOVARTA adalah portal berita teknologi terkemuka yang menyajikan analisis mendalam, berita gadget terbaru, dan tren inovasi global dengan akurasi tinggi.
+              {t.footer.desc}
             </p>
             <div className="flex space-x-4 pt-4">
               {[Facebook, Twitter, Instagram, Youtube, Mail].map((Icon, i) => (
@@ -35,18 +37,18 @@ export default function Footer() {
 
           {/* Navigation Columns */}
           <div className="lg:col-span-2">
-            <h3 className="font-bold text-slate-900 dark:text-white text-sm mb-6 pb-2 border-b-2 border-red-600 w-fit">Lainnya</h3>
+            <h3 className="font-bold text-slate-900 dark:text-white text-sm mb-6 pb-2 border-b-2 border-red-600 w-fit">{t.footer.more}</h3>
             <ul className="space-y-3">
-              {['Syarat Penggunaan','Kebijakan Privasi', 'Cookie', 'Bantuan Aksesibilitas', 'Bimbingan orang tua', 'Beriklan dengan kami', 'Tentang'].map((item) => (
-                <li key={item}>
-                  <Link href={item === 'Tentang' ? '/tentang' : '#'} className="text-xs text-slate-600 hover:text-red-500 transition-all font-medium">
-                    {item}
-                  </Link>
-                </li>
-              ))}
+              <li><Link href="#" className="text-xs text-slate-600 hover:text-red-500 transition-all font-medium">{t.footer.links.terms}</Link></li>
+              <li><Link href="#" className="text-xs text-slate-600 hover:text-red-500 transition-all font-medium">{t.footer.links.privacy}</Link></li>
+              <li><Link href="#" className="text-xs text-slate-600 hover:text-red-500 transition-all font-medium">{t.footer.links.cookie}</Link></li>
+              <li><Link href="#" className="text-xs text-slate-600 hover:text-red-500 transition-all font-medium">{t.footer.links.accessibility}</Link></li>
+              <li><Link href="#" className="text-xs text-slate-600 hover:text-red-500 transition-all font-medium">{t.footer.links.parents}</Link></li>
+              <li><Link href="#" className="text-xs text-slate-600 hover:text-red-500 transition-all font-medium">{t.footer.links.advertise}</Link></li>
+              <li><Link href={`/${lang}/tentang`} className="text-xs text-slate-600 hover:text-red-500 transition-all font-medium">{t.footer.links.about}</Link></li>
               <li>
-                <Link href="/contact" className="text-xs text-red-600 hover:text-slate-900 transition-all font-black uppercase tracking-widest">
-                  Hubungi Kami
+                <Link href={`/${lang}/contact`} className="text-xs text-red-600 hover:text-slate-900 transition-all font-black uppercase tracking-widest">
+                  {t.footer.links.contact}
                 </Link>
               </li>
             </ul>
@@ -66,12 +68,12 @@ export default function Footer() {
           {/* Promo Section */}
           <div className="lg:col-span-3">
             <div className="bg-slate-100 dark:bg-slate-900 p-4 rounded-xl space-y-4 border border-slate-200 dark:border-slate-800">
-              <h4 className="font-bold text-sm text-slate-900 dark:text-white">Pemasangan Iklan</h4>
+              <h4 className="font-bold text-sm text-slate-900 dark:text-white">{t.footer.promo.title}</h4>
               <p className="text-[10px] text-slate-500 leading-relaxed uppercase tracking-wider font-bold">
-                Hubungi tim sales kami untuk informasi pemasangan iklan di portal berita kami.
+                {t.footer.promo.desc}
               </p>
               <div className="aspect-[4/3] bg-slate-200 dark:bg-slate-800 rounded-lg flex items-center justify-center overflow-hidden italic text-xs font-black text-slate-400 uppercase tracking-[0.2em]">
-                Promo Asset
+                {t.footer.promo.asset}
               </div>
             </div>
           </div>
@@ -79,13 +81,13 @@ export default function Footer() {
 
         <div className="border-t border-slate-200 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[11px] text-slate-500 font-medium">
           <p>
-            Hak Cipta © {new Date().getFullYear()} TEKNOVARTA INDONESIA. Kami tidak bertanggung jawab atas isi situs eksternal. Segala bentuk kutipan harus menyertakan sumber yang valid.
+            {t.footer.copyright.replace('{year}', new Date().getFullYear().toString())}
           </p>
           <button 
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="flex items-center gap-2 hover:text-red-500 transition-all font-bold"
           >
-            ATAS <ArrowUpRight className="h-4 w-4" />
+            {t.footer.top} <ArrowUpRight className="h-4 w-4" />
           </button>
         </div>
       </div>

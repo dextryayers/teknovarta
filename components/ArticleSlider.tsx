@@ -8,6 +8,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { ChevronLeft, ChevronRight, Clock, User } from 'lucide-react';
+import { useTranslation } from '@/hooks/useTranslation';
 
 // Swiper styles
 import 'swiper/css';
@@ -21,12 +22,15 @@ interface ArticleSliderProps {
 }
 
 export default function ArticleSlider({ articles, featured = false }: ArticleSliderProps) {
+  const { t, lang } = useTranslation();
+
   if (featured) {
     return (
       <div className="relative group rounded-xl overflow-hidden shadow-2xl bg-slate-950">
         <Swiper
           modules={[Autoplay, Navigation, Pagination, EffectFade]}
           effect="fade"
+          fadeEffect={{ crossFade: true }}
           autoplay={{
             delay: 5000,
             disableOnInteraction: false,
@@ -45,9 +49,9 @@ export default function ArticleSlider({ articles, featured = false }: ArticleSli
         >
           {articles.map((article, idx) => (
             <SwiperSlide key={article.id}>
-              <div className="relative w-full h-full">
+              <div className="relative w-full h-full bg-slate-950">
                 <Image
-                  src={`${article.image}&w=1400`}
+                  src={article.image}
                   alt={`${article.title} - TeknoVarta Featured News`}
                   fill
                   className="object-cover opacity-70"
@@ -64,7 +68,7 @@ export default function ArticleSlider({ articles, featured = false }: ArticleSli
                     <Badge className="bg-red-600 text-white w-fit mb-4 rounded-none px-4 py-1.5 font-black uppercase tracking-[0.2em] border-none text-[9px]">
                       {article.category}
                     </Badge>
-                    <Link href={`/artikel/${article.slug}`}>
+                    <Link href={`/${lang}/artikel/${article.slug}`}>
                       <h2 className="text-3xl md:text-5xl lg:text-7xl font-sans font-black text-white mb-6 line-clamp-2 hover:text-red-500 transition-all tracking-tighter leading-[0.9] italic uppercase">
                         {article.title}
                       </h2>
@@ -72,7 +76,7 @@ export default function ArticleSlider({ articles, featured = false }: ArticleSli
                     <div className="flex items-center gap-6 text-slate-300 text-[10px] md:text-[11px] font-black uppercase tracking-[0.2em]">
                       <div className="flex items-center gap-2">
                         <User className="h-3 w-3 text-red-600" />
-                        <span>BY {article.author}</span>
+                        <span>{t.components.article.by} {article.author}</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <Clock className="h-3 w-3 text-red-600" />
@@ -138,7 +142,7 @@ export default function ArticleSlider({ articles, featured = false }: ArticleSli
             <div className="group/card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden h-full flex flex-col hover:border-red-600 transition-colors duration-500 shadow-sm">
               <div className="relative aspect-video overflow-hidden">
                 <Image
-                  src={`${article.image}&w=800`}
+                  src={article.image}
                   alt={article.title}
                   fill
                   className="object-cover transition-transform duration-700 group-hover/card:scale-110"
@@ -150,7 +154,7 @@ export default function ArticleSlider({ articles, featured = false }: ArticleSli
                 </Badge>
               </div>
               <div className="p-5 flex-1 flex flex-col">
-                <Link href={`/artikel/${article.slug}`}>
+                <Link href={`/${lang}/artikel/${article.slug}`}>
                   <h3 className="font-sans font-black text-slate-950 dark:text-slate-100 text-lg leading-tight line-clamp-2 hover:text-red-600 transition-colors mb-4 italic uppercase tracking-tighter">
                     {article.title}
                   </h3>
@@ -160,7 +164,7 @@ export default function ArticleSlider({ articles, featured = false }: ArticleSli
                       <span>{article.date}</span>
                    </div>
                    <div className="text-[9px] font-black text-red-600 uppercase tracking-widest flex items-center gap-1 group/btn">
-                      READ <ChevronRight className="h-2 w-2 group-hover/btn:translate-x-1 transition-transform" />
+                      {t.components.article.read} <ChevronRight className="h-2 w-2 group-hover/btn:translate-x-1 transition-transform" />
                    </div>
                 </div>
               </div>

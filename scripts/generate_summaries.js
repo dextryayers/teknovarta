@@ -1,0 +1,77 @@
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+const fs = require("fs");
+const path = require("path");
+require("dotenv").config();
+
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+
+async function generateSummary(title, content) {
+  try {
+    const prompt = `Ringkas artikel teknologi berikut dalam satu kalimat yang padat (maksimal 25 kata), menarik, dan informatif untuk ditampilkan sebagai 'AI Insight'. Gunakan bahasa Indonesia yang santai tapi profesional. Fokus pada poin paling penting atau 'wow factor' dari produk/berita tersebut.
+    
+    Judul: ${title}
+    Konten: ${content.substring(0, 2000)}...`;
+
+    const result = await model.generateContent(prompt);
+    const response = await result.response;
+    return response.text().trim().replace(/^"|"$/g, '');
+  } catch (error) {
+    console.error(`Error generating summary for ${title}:`, error);
+    return null;
+  }
+}
+
+async function processArticles() {
+  const filePath = path.join(__dirname, "../lib/articles.ts");
+  let content = fs.readFileSync(filePath, "utf8");
+
+  // Simple regex to find objects in the array
+  // This is tricky because the file is large. 
+  // We'll iterate through the file and look for "id": X blocks.
+  
+  const articleBlocks = content.split(/  \{\r?\n    "id":|  \{\r?\n    id:/);
+  const header = articleBlocks[0];
+  const items = articleBlocks.slice(1);
+
+  console.log(`Found ${items.length} articles.`);
+
+  let updatedCount = 0;
+  let newItems = [];
+
+  for (let i = 0; i < items.length; i++) {
+    let item = items[i];
+    const idMatch = item.match(/^\s*(\d+)/);
+    const id = idMatch ? idMatch[1] : i;
+    
+    // Check if aiSummary already exists
+    if (!item.includes('"aiSummary":') && !item.includes('aiSummary:')) {
+      console.log(`Processing article ID ${id}...`);
+      
+      const titleMatch = item.match(/"title":\s*"([^"]+)"|title:\s*"([^"]+)"/);
+      const contentMatch = item.match(/"content":\s*"([^"]+)"|content:\s*"([^"]+)"/);
+      
+      const title = titleMatch ? (titleMatch[1] || titleMatch[2]) : "";
+      const articleContent = contentMatch ? (contentMatch[1] || contentMatch[2]) : "";
+
+      if (title && articleContent) {
+        const summary = await generateSummary(title, articleContent);
+        if (summary) {
+          // Insert aiSummary before content
+          const insertionPoint = item.indexOf('"content":') !== -1 ? item.indexOf('"content":') : item.indexOf('content:');
+          item = item.substring(0, insertionPoint) + `    "aiSummary": "${summary}",\n` + item.substring(insertionPoint);
+          updatedCount++;
+        }
+      }
+      
+      // Also ensure all keys are quoted for consistency if we want, but let's just fix aiSummary for now
+    }
+    newItems.push(`  {\n    "id":` + item);
+  }
+
+  const finalContent = header + newItems.join("");
+  fs.writeFileSync(filePath, finalContent, "utf8");
+  console.log(`Done! Updated ${updatedCount} articles.`);
+}
+
+processArticles();
